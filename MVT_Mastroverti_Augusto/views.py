@@ -20,6 +20,8 @@ def familiar(request):
     familiar3.save()
     texto3=f"Familiar 3 creado, nombre: {familiar3.nombre} ,edad: {familiar3.edad} ,profesion {familiar3.profesion}"
 
+    familiar4="hola"
+
     return HttpResponse(texto1+texto2+texto3)
 
 
